@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
+
 <head>
     <meta property="og:url"                content="https://tudati.com" />
     <meta property="og:author"             content="tudatieletmatrix" />
@@ -21,7 +22,6 @@
     <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/settings.css">
     <link rel="icon" href="images/favicon.png">
-    <link rel='stylesheet' href='css/revolution.addon.particles.css?ver=1.0.3' type='text/css' media='all' />
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
@@ -38,9 +38,10 @@
 </head>
 
 <body>
+    <!-- Body Inner -->
     <div class="body-inner">
         <!-- Header -->
-        <header id="header" data-fullwidth="true" data-transparent="true" class="dark">
+        <header id="header" data-fullwidth="true">
             <div class="header-inner">
                 <div class="container">
                     <div id="logo">
@@ -74,80 +75,51 @@
             </div>
         </header>
         <!-- end: Header -->
-        <!-- Inspiro Slider -->
-        <div id="slider" class="inspiro-slider dots-creative" data-height-xs="360">
-            <!-- Slide 2 -->
-            <div class="slide kenburns" style="background-image:url('images/blog/header.jpg');">
-                <div class="bg-overlay"></div>
-                <div class="container">
-                    <div class="slide-captions text-center text-light">
-                        <!-- Captions -->
-                        <span class="strong">Irattár</span>
-                        <h1>Írott anyagok</h1>
-                        <!-- end: Captions -->
-                    </div>
-                </div>
-            </div>
-            <!-- end: Slide 2 -->
-
-        </div>
-        <!--end: Inspiro Slider -->
-        <!-- Content -->
-        <section id="page-content">
+        <!-- Page Content -->
+        <section id="page-content" class="sidebar-right">
             <div class="container">
-                <!-- post content -->
-                <!-- Blog -->
-                <div id="blog" class="grid-layout post-3-columns m-b-30" data-item="post-item">
-                    <!-- Post item-->
-                    <div class="post-item border">
-                        <div class="post-item-wrap">
-                            <div class="post-image">
-                                <a href="2.html">
-                                    <img alt="" src="images/blog/posts/2.jpg">
-                                </a>
-                                <span class="post-meta-category"><a href="">Bájeni Iratok</a></span>
+                <div class="row">
+                    <!-- content -->
+                    <div class="content col-lg-9">
+                        <!-- Blog -->
+                        <div id="blog" class="single-post">
+                            <!-- Post single item-->
+                            <div class="post-item">
+                                <div class="post-item-wrap">
+                                    <div class="post-image">
+                                        <a href="#">
+                                            <img alt="" src="images/blog/posts/2.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="post-item-description">
+                                        <h2>Bájeni Iratok - 1. rész</h2>
+                                        <div class="post-meta">
+                                            <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Nov 15, 2023</span>
+                                            <span class="post-meta-category"><a href=""><i class="fa fa-tag"></i>Bájeni Iratok, Próféciák</a></span>
+                                        </div>
+                                        <p>Családi örökségem egyik gyöngyszeme az a mendemondákkal teli könyv, melyeket még jó apám adott tovább nekem, neki pedig az övé, ebből a könyvből szeretnék most elmondani néhány idézetet, mely talán megrenget majd néhány embert köztetek, de egészen biztosan lesz, aki meglátja bennük azt, amit én is úgy szeretek.</p>
+                                        <div class="blockquote">
+                                            <p>(…)Egy dobogó hang járja át a fagyos estéket, mit a kiválasztottak már hallani véltek. Bájen dobjai rengetik meg a Földet, a Fény szakítja ketté a vidéket, Dunakanyartól keletre lovagol Isten kiválasztott Szent Népe. Ősi próféciákban foglalt sorok szájából hagyták el az emléket, felperzselték a környéket. A Nap küldte őket, hogy elhozzák a Sötétséget! A táltosok dobjai törték meg az esténket, a kiválasztottak szemében a harci kedv fénylett, együtt győzik le a sötétet. Ma már búcsúztatják szárnyuk alatt a Földet, a MAG népe a jövőbe lépett, lábuk alatt dobogott az évezredes becsülettel áztatott végzet, a jóslat, mely teljesülni született, önnönmagával képezvén tükörképet! Két lóláb dobbantotta meg az igaz magyar szívet, asszonyok siratták és féltek, hősként haltak a férfiként távozó lelkek, ezernyi szilánkot a belső Földbe vertek. Egy pajzs emelkedett fölétek, megérkeztek a Dobogói Négyek, partra vetett minden gonoszt az élet. Egy alak rajzolódott ki a jég hátán, átkelt a Duna két partján, lába nem ért nedvet a víz hátán, csukák úsztatták át a szívcsakrán, lelkéből gyöngyöző érpatak emelte a sebezhetetlen falakat.(…)</p>
+                                            <p>Bájen falai omladoztak, míg Pesten a magyarok kegyelemért sóhajtoztak! Takacs az első magyar táltos farkasként a Kékes csúcsán Holdat ugatva reszketést hozott a gyapjasok szívébe. Vadászként űzte a sötét lényeket a végbe. Tárkon az első gyógyító hozta a reményt a gyászos szívekbe. Az első háború végén vörös víz folyt a Duna kecses medrében, könnyből fakadt az Úr kiválasztott népe. Megtörni sose látszott még ennek ellenére, felállt és a dobszó tovább szólt(…)</p>
+                                            <small>idézet: <cite>Bájeni Iratok - Árnyékfolyó</cite></small>
+                                        </div>
+                                        <p>Még most is hallani, ha nem félsz a sötétben.</p>
+                                    </div>
+                                    <div class="post-tags">
+                                        <a href="#">Bájeni Iratok</a>
+                                        <a href="#">Tudati Életmátrix</a>
+                                        <a href="#">Dobogói Négyek</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="post-item-description">
-                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Nov 15, 2023</span>
-                                <span class="post-meta-comments"><a href=""></span>
-                                <h2><a href="2.html">Bájeni Iratok - 1. rész
-                                    </a></h2>
-                                <p>A prófécia szerint a kiválasztott nép küldetése a Fény és a Sötétség harca, melynek hőseit a történelem viharai és küzdelmei formálják.</p>
-                                <a href="2.html" class="item-link">Olvass Tovább ></a>
-                            </div>
+                            <!-- end: Post single item-->
                         </div>
                     </div>
-                    <!-- end: Post item-->
-                    <!-- Post item-->
-                    <div class="post-item border">
-                        <div class="post-item-wrap">
-                            <div class="post-image">
-                                <a href="1.html">
-                                    <img alt="" src="images/blog/posts/1.jpg">
-                                </a>
-                                <span class="post-meta-category"><a href="">Hírek</a></span>
-                            </div>
-                            <div class="post-item-description">
-                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Nov 14, 2023</span>
-                                <span class="post-meta-comments"><a href=""></span>
-                                <h2><a href="1.html">Elindult az új digitális központunk
-                                    </a></h2>
-                                <p>Az oldalunk létrejöttét azért tűztük ki célul, hogy szélesebb körben tudjuk tájékoztatni az ébredni vágyókat.<br><br></p>
-                                <a href="1.html" class="item-link">Olvass Tovább ></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end: Post item-->
+                    <!-- end: content -->
                 </div>
-                <!-- end: Blog -->
-                <!-- Load next portfolio items -->
-                <div id="pagination" class="infinite-scroll">
-                    <a href="blog.html"></a>
-                </div>
-                <!-- end:Load next portfolio items -->
             </div>
-            <!-- end: post content -->
-        </section> <!-- end: Content -->
+        </section>
+        <!-- end: Page Content -->
     </div>
     <!-- end: Body Inner -->
     <!-- Scroll top -->
@@ -155,12 +127,8 @@
     <!--Plugins-->
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
-
     <!--Template functions-->
     <script src="js/functions.js"></script>
-
-    <!--Infinite Scroll plugin files-->
-    <script src="plugins/metafizzy/infinite-scroll.min.js"></script>
 </body>
 
 </html>
